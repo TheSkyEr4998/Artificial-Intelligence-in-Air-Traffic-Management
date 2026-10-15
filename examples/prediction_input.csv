@@ -1,0 +1,3 @@
+id,type,start_hour,n_departing_at_start,n_arriving_at_start,angle,shortest path,distance_gate,distance_long,distance,distance_else
+synthetic_arrival,arrival,8,1,2,450,1600,80,600,1800,1120
+synthetic_departure,departure,14,4,1,650,2000,100,900,2300,1300

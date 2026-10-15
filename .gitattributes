@@ -1,0 +1,3 @@
+# Keep tracked source text stable across Windows/Linux checkouts.
+# Frozen model manifests verify training-source byte digests.
+* text=auto eol=lf

@@ -1,0 +1,64 @@
+{
+  "run_name": "from-monthly-feature-data",
+  "source": "Twelve supplied monthly feature CSV files, checked against the supplied cleaned observations and snapped interval files.",
+  "prediction_task": "Retrospective completed-journey modelling",
+  "test_is_fresh_independent_evidence": false,
+  "evaluation_status": "Repeated development evaluation; December 2021 dates were previously inspected in the earlier project run.",
+  "preparation": {
+    "monthly_feature_rows": 63842,
+    "prepared_rows_after_calendar_type_target_vehicle_identity_rules": 61397,
+    "aircraft_identity_conflicts_quarantined": 188,
+    "source_session_supported_rows": 59683,
+    "held_for_source_review_rows": 1714,
+    "source_review_reason_counts_overlap": {
+      "feature_event_bounds_unresolved": 904,
+      "observation_gap_inside_event": 858,
+      "competing_clock_or_session_mappings": 46,
+      "clock_offset_transition_possible": 5
+    }
+  },
+  "split": {
+    "training_rows": 41725,
+    "validation_rows": 11640,
+    "evaluation_rows": 5776,
+    "boundary_gap_rows": 542,
+    "training_dates": "2021-01-01 through 2021-10-27",
+    "validation_dates": "2021-10-29 through 2021-12-10",
+    "evaluation_dates": "2021-12-12 through 2021-12-31",
+    "evaluation_source_dates": 20
+  },
+  "feature_selection": {
+    "pca_components_retained": 3,
+    "route_variance_retained": 0.9511,
+    "selected_factor_count": 8,
+    "selected_factors": [
+      "type",
+      "start_hour",
+      "n_departing_at_start",
+      "n_arriving_at_start",
+      "angle",
+      "shortest path",
+      "distance_gate",
+      "distance_long"
+    ]
+  },
+  "winner_selected_on_validation": "anfis_r8",
+  "evaluation_metrics": {
+    "anfis": {"mae_minutes": 2.8433079658, "rmse_minutes": 7.3054055283, "r2": 0.3138378982},
+    "neural_network": {"mae_minutes": 2.8239323694, "rmse_minutes": 7.3170025852, "r2": 0.3116576559},
+    "polynomial": {"mae_minutes": 2.9310335752, "rmse_minutes": 7.5199023940, "r2": 0.2729530168},
+    "median_baseline": {"mae_minutes": 5.1790541320, "rmse_minutes": 9.1081774013, "r2": -0.0665986537}
+  },
+  "paired_whole_source_date_bootstrap_mae_differences_minutes": {
+    "anfis_minus_neural_network": {"point": 0.0193755964, "lower95": -0.0269521374, "upper95": 0.0834612956},
+    "anfis_minus_polynomial": {"point": -0.0877256094, "lower95": -0.1324670786, "upper95": -0.0466210508},
+    "anfis_minus_median_baseline": {"point": -2.3357461662, "lower95": -2.4771513861, "upper95": -2.1852259671}
+  },
+  "scope_notes": [
+    "All scores measure agreement with inferred feature labels, not official airport ground truth.",
+    "Source-session support tests UTC and Europe/London clock hypotheses because the historical timezone is unavailable.",
+    "No feature labels were rewritten and no duration-based filtering or prediction clipping was used.",
+    "The evaluation dates were previously inspected and are repeated development evidence.",
+    "Recorded route and endpoint features describe completed journeys; this is not live taxi-start forecasting."
+  ]
+}

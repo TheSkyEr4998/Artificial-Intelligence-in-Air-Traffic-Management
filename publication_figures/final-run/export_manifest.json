@@ -1,0 +1,207 @@
+﻿{
+  "run_summary_sha256": "ce1a5c6d612b40741ba06cba4abac47123255e2202260db8a168a28ffe03f69f",
+  "figures": [
+    {
+      "stage": "step03",
+      "source_relative_path": "step03/pca_variance.png",
+      "export_relative_path": "step03_pca_variance.png",
+      "source_sha256": "8e3c6f30711e3d2bde0cd200bf5e8d249f61d98a7b3b69a9f5776133f8ebee29",
+      "export_sha256": "840371c54b07aeb294ed4d0a13be5d623317ae5720e3624ba81ec84d489b5e40",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step03",
+      "source_relative_path": "step03/pca_weights.png",
+      "export_relative_path": "step03_pca_weights.png",
+      "source_sha256": "4315790cd6677dde3614e272c96bf509f91907b98e593c348b99eb7b00c270ad",
+      "export_sha256": "198c10d1825c83d091b0f54d2844a4f2f01abc8d9267a98bdf28a5938626a89e",
+      "source_width": 1440,
+      "source_height": 768,
+      "export_width": 1440,
+      "export_height": 894,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step03",
+      "source_relative_path": "step03/training_pca_projection.png",
+      "export_relative_path": "step03_training_pca_projection.png",
+      "source_sha256": "7c2469fd5122c9b7b5eb4e217a0e77a6a01d76709ba937cc0fdb4b68da3c4391",
+      "export_sha256": "24c4f68d9ae772b002856b27d8aeab98bd75f0e06a9006bc4cd56255dc64e5f4",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step03",
+      "source_relative_path": "step03/validation_feature_comparison.png",
+      "export_relative_path": "step03_validation_feature_comparison.png",
+      "source_sha256": "26d067f3b5f6a375cb404a8ef0489e78a8f8b31ce401ef0c292a5e7e24e9991f",
+      "export_sha256": "e0ff28c1769c07f7d59a6a8e6d262517d892fbcbfd6acf33dd52e07e8e4941fe",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step04",
+      "source_relative_path": "step04/validation_candidates.png",
+      "export_relative_path": "step04_validation_candidates.png",
+      "source_sha256": "5b37661b20d2e0d8a9cfbebe1bd304a0bc0f960b792625ee8be95b81afd4596e",
+      "export_sha256": "96e65c899f13700d35da16f681bf025ab04f68472cea6303dc410585a22d3565",
+      "source_width": 1600,
+      "source_height": 768,
+      "export_width": 1600,
+      "export_height": 907,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step04",
+      "source_relative_path": "step04/training_validation_comparison.png",
+      "export_relative_path": "step04_training_validation_comparison.png",
+      "source_sha256": "a796be339b18388ae1184c60ef04a7f92d3ff90dacf796c915ee5909896a799a",
+      "export_sha256": "8dd96ef4c660ebe10a694c6d1d87fae354f79824b9190921bc48bbfd5df00dec",
+      "source_width": 1760,
+      "source_height": 768,
+      "export_width": 1760,
+      "export_height": 920,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step04",
+      "source_relative_path": "step04/learning_curves.png",
+      "export_relative_path": "step04_learning_curves.png",
+      "source_sha256": "4c3716857febd0fecd81cdc7e02b33707ef846b2bcad359d4ce3ac38f1b563bd",
+      "export_sha256": "16a5e168857f79e6380ebd114cbc4b7142d028169d929b264921ab401e852574",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Training/validation development",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Training: 41,725; validation: 11,640; PCA fit on training data only.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step05",
+      "source_relative_path": "step05/test_model_comparison.png",
+      "export_relative_path": "step05_test_model_comparison.png",
+      "source_sha256": "b19dd3b01eb1b19a225da838d97738335074f253926acb873f69d3cf080d2836",
+      "export_sha256": "174d6c9bfa2330d83533da421bd66eb4843e7d3bd9487424c4ed3dd741f1d7c6",
+      "source_width": 1760,
+      "source_height": 768,
+      "export_width": 1760,
+      "export_height": 920,
+      "qualifier": "Repeated development evaluation; dates previously inspected",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Repeated development evaluation; dates previously inspected. 5,776 records across 20 source dates; validation-selected anfis_r8.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step05",
+      "source_relative_path": "step05/winner_test_scatter.png",
+      "export_relative_path": "step05_winner_test_scatter.png",
+      "source_sha256": "ad708de626c23df2de26daec3d1464c53a760e790de6e746566d1928ecea6542",
+      "export_sha256": "5efcebeb151e1896f02c67336ce23a9347da6834bf4255e4af243b6e3fee7efb",
+      "source_width": 1040,
+      "source_height": 960,
+      "export_width": 1040,
+      "export_height": 1054,
+      "qualifier": "Repeated development evaluation; dates previously inspected",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Repeated development evaluation; dates previously inspected. 5,776 records across 20 source dates; validation-selected anfis_r8.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step05",
+      "source_relative_path": "step05/winner_test_residuals.png",
+      "export_relative_path": "step05_winner_test_residuals.png",
+      "source_sha256": "65958e3881a52a4a19a93e38d5982bce0ac7877ffe053bc07a03d7d2121a0c75",
+      "export_sha256": "fb9a9ffc9760338d55fced9b0a1ce2ad3313eb17a3e0489ca3b2b9ad8df373c9",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Repeated development evaluation; dates previously inspected",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Repeated development evaluation; dates previously inspected. 5,776 records across 20 source dates; validation-selected anfis_r8.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    },
+    {
+      "stage": "step05",
+      "source_relative_path": "step05/test_absolute_error_cdf.png",
+      "export_relative_path": "step05_test_absolute_error_cdf.png",
+      "source_sha256": "68a8e38955c6f2d6ed1049d1fb7f73a53b9218922041e5e8729e105a461e4a6b",
+      "export_sha256": "1f07ced7ff95fa9a8e8e3b73b8176ad7aa5c004b6991d5f53dc548a4e10d0ddb",
+      "source_width": 1280,
+      "source_height": 768,
+      "export_width": 1280,
+      "export_height": 878,
+      "qualifier": "Repeated development evaluation; dates previously inspected",
+      "scope": "Retrospective completed-route modelling; labels are inferred event durations.",
+      "caption_lines": [
+        "Source-session cohort: 59,683 retained; 1,714 held for review from 61,397 prepared records.",
+        "Repeated development evaluation; dates previously inspected. 5,776 records across 20 source dates; validation-selected anfis_r8.",
+        "Retrospective completed-route modelling; labels are inferred event durations, not official ground truth."
+      ]
+    }
+  ],
+  "csv_sha256": "d6994a59876c60c9f997ac602ba3c75572f79e64361c0584ec64be8142aa74bf",
+  "source_session_records_checked": 61397,
+  "source_session_supported_records": 59683,
+  "test_is_fresh_independent_evidence": false
+}

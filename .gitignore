@@ -1,0 +1,11 @@
+Feature data/
+Cleaned data/
+Snapped data/
+Programs/
+Other/
+artifacts/
+publication_figures/v3/
+.venv/
+__pycache__/
+*.pyc
+*.zip
