@@ -51,6 +51,10 @@ The chronological partitions are:
 
 The December dates were inspected in an earlier development run. Results below are therefore **repeated development evaluation**, not fresh independent test evidence.
 
+### Download the monthly feature data
+
+The 12 monthly feature CSVs are available as assets in the [Monthly feature data release (`data-v1.0`)](https://github.com/TheSkyEr4998/Artificial-Intelligence-in-Air-Traffic-Management/releases/tag/data-v1.0). Download the files from the release’s **Assets** section and place them in a local `Feature data` folder to use them as workflow inputs. The release contains the monthly feature files only; other supplied datasets and executable tools are not included in this repository or release.
+
 ## Feature selection and models
 
 Training-only PCA retained **3 route components**, accounting for **95.11%** of route-feature variance. Validation selected eight original factors:
